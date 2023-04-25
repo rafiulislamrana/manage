@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
+
+
+.btn{
+    @apply px-3 py-2 transition-colors bg-brightRed text-white rounded hover:text-brightRed hover:bg-white hover:border-brightRed border-2 border-white,
+}
+
+
 @tailwind utilities;
