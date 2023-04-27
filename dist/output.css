@@ -613,8 +613,28 @@ video {
   background-size: contain;
 }
 
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-scroll {
+  background-attachment: scroll;
+}
+
 .bg-center {
   background-position: center;
+}
+
+.bg-top {
+  background-position: top;
+}
+
+.\!bg-top {
+  background-position: top !important;
 }
 
 .bg-no-repeat {
